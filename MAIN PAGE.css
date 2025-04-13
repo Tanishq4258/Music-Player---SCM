@@ -65,9 +65,11 @@ body {
 }
 .auth-buttons {
     display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
     gap: 10px;
     margin-bottom: 20px;
 }
+
 .auth-buttons button {
     background-color: #282828;
     color: white;
@@ -76,10 +78,12 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
+
 .auth-buttons button.signup {
     background-color: white;
     color: black;
 }
+
 .section-title {
     font-size: 24px;
     margin: 20px 0;
@@ -91,12 +95,13 @@ body {
     height: 20rem;
 }
 .card {
+    padding-top: 1px;
     background-color: #282828;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     width: 150px;
-    /* height: 15rem; */
+    height: 15rem;
     max-height: 15rem;
     transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
 }
