@@ -1,0 +1,26 @@
+Terms of Service - Music Payer
+
+Effective Date: April 19, 2025
+
+Welcome to Music Payer! By using our app, you agree to the following terms and conditions. Please read them carefully.
+
+1. Use of the App  
+Music Payer is a simple, offline music player created by students for educational and personal use. You may use the app to play music bundled with it. You agree not to use the app for any illegal or unauthorized purpose.
+
+2. Intellectual Property  
+All code and content (excluding the bundled songs, if sourced from public domain or with permission) are the property of the developers. You may not copy, modify, or distribute the app without permission unless otherwise stated (e.g., if it's open-source).
+
+3. Disclaimer  
+Music Payer is provided "as-is" without warranties of any kind. We do not guarantee that the app will be free of bugs or always work perfectly. Since it does not use online features or user data, it's designed to be as simple and safe as possible.
+
+4. Liability  
+The developers are not responsible for any damages or losses arising from the use of this app. By using Music Payer, you accept all risks associated with its use.
+
+5. Changes to Terms  
+These terms may be updated in the future as the app grows or changes. We will update the date at the top of the document to reflect any changes.
+
+6. Contact  
+For questions, suggestions, or concerns regarding these terms, feel free to contact us at:  
+**musicplayer@gmail.com**
+
+Thank you for using Music Payer!
