@@ -3,7 +3,18 @@ body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: white;
+    background: linear-gradient(135deg, #181818 0%, #232526 100%);
+    color: white;
 }
+/* body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    background: url('your-background.svg') center/cover no-repeat;
+    opacity: 0.07;
+    z-index: -1;
+    pointer-events: none;
+} */
 .sidebar {
     width: 250px;
     height: 100vh;
@@ -117,8 +128,9 @@ body {
 .card:hover {
     transform: scale(1.1);
     background-color: rgba(104, 100, 100, 0.734);
-    box-shadow: 0 0 5px rgb(1, 13, 91),
-                0 0 10px rgb(57, 0, 133);
+    /* box-shadow: 0 0 5px rgb(1, 13, 91),
+                0 0 10px rgb(57, 0, 133); */
+    box-shadow: 0 0 20px #1DB95488, 0 0 40px #1ed76044;
   }
 .player {
     position: fixed;
@@ -247,4 +259,23 @@ body {
 
 .dropdown-list li:hover {
     background-color: #000000; 
+}
+/* .sidebar a:hover, .card:hover, .auth-buttons button.signup {
+    background: linear-gradient(90deg, #012f11 0%, #013814 100%);
+    color: #fff !important;
+} */
+.card, .search-bar, .player, .dropdown {
+    background: rgba(40, 40, 40, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.sidebar .create-playlist button, .auth-buttons button {
+    /* background: linear-gradient(90deg, #1DB954 0%, #1ed760 100%); */
+    color: #fff;
+    /* box-shadow: 0 2px 8px #1DB95444; */
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.sidebar .create-playlist button:hover, .auth-buttons button:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0 4px 16px #1DB95488; */
 }
