@@ -1,0 +1,20 @@
+About Us - Music Payer
+
+Welcome to Music Payer! 🎵
+
+Music Payer is a simple, student-built music player made with love using HTML, CSS, and JavaScript. Designed for a smooth and minimal experience, it lets users play, pause, and switch between songs from a built-in playlist — all without needing an internet connection.
+
+We are a group of students passionate about web development and clean UI design. This project is a part of our learning journey and a showcase of what can be built with basic front-end technologies.
+
+What makes Music Payer special:
+- Clean and responsive design
+- Easy-to-use music controls (Play, Pause, Next, Previous)
+- Built-in playlist — no internet or APIs required
+- Fully offline and privacy-friendly
+
+We hope you enjoy using Music Payer as much as we enjoyed building it.
+
+If you’d like to give feedback or suggestions, feel free to reach out at:  
+**musicplayer@gmail.com**
+
+Thanks for stopping by and happy listening! 🎧
