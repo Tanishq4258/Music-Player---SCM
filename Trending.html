@@ -82,6 +82,102 @@
     Trending
    </div>
    <div class="card-container">
+        <!-- C.R.E.A.M Posse -->
+<div class="card" data-song-title="C.R.E.A.M Posse" data-song-artist="Bagghe-e SMG, Farmaan SMG, BIG KAY SMG" data-song-src="songs/C.R.E.A.M Posse.mp3" data-song-cover="songs/Trending/img/cream-posse.jpg">
+    <img alt="C.R.E.A.M Posse album cover" height="100" src="mp_avatar/C.R.E.A.M Posse.jpg" width="100"/>
+    <p>
+      C.R.E.A.M Posse
+    </p>
+    <p>
+      SMG
+    </p>
+  </div>
+  
+  <!-- 48 Rhymes -->
+  <div class="card" data-song-title="48 Rhymes" data-song-artist="Karan Aujla" data-song-src="songs/Trending/48-rhymes.mp3" data-song-cover="songs/Trending/img/48-rhymes.jpg">
+    <img alt="48 Rhymes album cover" height="100" src="songs/Trending/img/48-rhymes.jpg" width="100"/>
+    <p>
+      48 Rhymes
+    </p>
+    <p>
+      Karan Aujla
+    </p>
+  </div>
+  
+  <!-- Scheme -->
+  <div class="card" data-song-title="Scheme" data-song-artist="Arjan Dhillon" data-song-src="songs/Trending/scheme.mp3" data-song-cover="songs/Trending/img/scheme.jpg">
+    <img alt="Scheme album cover" height="100" src="songs/Trending/img/revolution.jpg" width="100"/>
+    <p>
+      Scheme
+    </p>
+    <p>
+      Arjan Dhillon
+    </p>
+  </div>
+  
+  <!-- Police -->
+  <div class="card" data-song-title="Police" data-song-artist="Cheema Y" data-song-src="songs/Trending/police.mp3" data-song-cover="songs/Trending/img/police.jpg">
+    <img alt="Police album cover" height="100" src="songs/Trending/img/young goat.jpg" width="100"/>
+    <p>
+      Police
+    </p>
+    <p>
+      Cheema Y
+    </p>
+  </div>
+  
+  <!-- Aura -->
+  <div class="card" data-song-title="Aura" data-song-artist="Shubh" data-song-src="songs/Trending/aura.mp3" data-song-cover="songs/Trending/img/aura.jpg">
+    <img alt="Aura album cover" height="100" src="songs/Trending/img/sicario.jpg" width="100"/>
+    <p>
+      Aura
+    </p>
+    <p>
+      Shubh
+    </p>
+  </div>
+  
+  <!-- Gears -->
+  <div class="card" data-song-title="Gears" data-song-artist="Arjan Dhillon" data-song-src="songs/Trending/gears.mp3" data-song-cover="songs/Trending/img/gears.jpg">
+    <img alt="Gears album cover" height="100" src="songs/Trending/img/revolution.jpg" width="100"/>
+    <p>
+      Gears
+    </p>
+    <p>
+      Arjan Dhillon
+    </p>
+  </div>
+  
+  <!-- Accounts -->
+  <div class="card" data-song-title="Accounts" data-song-artist="Nijjar, Yo Yo Honey Singh" data-song-src="songs/Trending/accounts.mp3" data-song-cover="songs/Trending/img/accounts.jpg">
+    <img alt="Accounts album cover" height="100" src="songs/Trending/img/nijjar.jpg" width="100"/>
+    <p>
+      Accounts
+    </p>
+    <p>
+      Nijjar, Yo Yo Honey Singh
+    </p>
+  </div>
+  
+   </div>
+  </div>
+  
+</div>
+<div class="main-content">
+   
+   <!-- <div class="search-bar">
+    <i class="fas fa-search">
+    </i>
+    <input placeholder="What would you like to hear..." type="text"/>
+   </div> -->
+   
+
+<div id="dropdown" class="dropdown" style="display: none;">
+
+    <ul id="dropdown-list" class="dropdown-list"></ul>
+
+</div>
+   <div class="card-container">
     <!-- DONALI -->
 <div class="card" data-song-title="DONALI" data-song-artist="Harkirat, Starboy X" data-song-src="songs/Trending/donali.mp3" data-song-cover="donali.jpg">
     <img alt="DONALI album cover" height="100" src="mp_avatar/donali.webp" width="100"/>
@@ -177,13 +273,13 @@
   <br>
   <div class="player">
    <div class="song-info">
-    <img alt="Jo Tum Mere Ho album cover" height="50" id="song-cover" src="Jo tum mere ho.png" width="50"/>
+    <img alt="song album cover" height="50" id="song-cover" src="" width="50"/>
     <div>
      <p id="song-title">
-      Jo Tum Mere ho
+      song name
      </p>
      <p id="song-artist">
-      Anuv Jain
+      Artist
      </p>
     </div>
    </div>
@@ -234,7 +330,49 @@
 //    const dropdownList = document.getElementById('dropdown-list');
 
    const songs = [
-   {
+    { 
+        title: "C.R.E.A.M Posse",
+        artist: "Bagghe-e SMG, Farmaan SMG, BIG KAY SMG",
+        src: "songs/C.R.E.A.M Posse.mp3",
+        cover: "mp_avatar/C.R.E.A.M Posse.jpg"
+    },
+    {
+        title: "48 Rhymes",
+        artist: "Karan Aujla",
+        src: "songs/Trending/48-rhymes.mp3",
+        cover: "songs/Trending/img/48-rhymes.jpg"
+    },
+    {
+        title: "Scheme",
+        artist: "Arjan Dhillon",
+        src: "songs/Trending/scheme.mp3",
+        cover: "songs/Trending/img/revolution.jpg"
+    },
+    {
+        title: "Police",
+        artist: "Cheema Y",
+        src: "songs/Trending/police.mp3",
+        cover: "songs/Trending/img/young goat.jpg"
+    },
+    {
+        title: "Aura",
+        artist: "Shubh",
+        src: "songs/Trending/aura.mp3",
+        cover: "songs/Trending/img/sicario.jpg"
+    },
+    {
+        title: "Gears",
+        artist: "Arjan Dhillon",
+        src: "songs/Trending/gears.mp3",
+        cover: "songs/Trending/img/revolution.jpg"
+    },
+    {
+        title: "Accounts",
+        artist: "Nijjar, Yo Yo Honey Singh",
+        src: "songs/Trending/accounts.mp3",
+        cover: "songs/Trending/img/nijjar.jpg"
+    },
+    {
         title: "DONALI",
         artist: "Harkirat, Starboy X",
         src: "songs/Trending/donali.mp3",
@@ -294,7 +432,7 @@
         title: "Nature",
         artist: "Kabira, Nj Nindaniya",
         src: "songs/Nature.mp3",
-        cover: "nature.jpg"
+        cover: "mp_avatar/nature.jpg"
     },  
     {
         title: "O' Meri Laila",
@@ -306,7 +444,7 @@
         title: "Hot Shit",
         artist: "Arjan Dhillon",
         src: "songs/Hot Shit.mp3",
-        cover: "hot shit.jpg"
+        cover: "mp_avatar/hot shit.jpg"
     },
     {
         title: "Tera Hone Laga Hoon",
@@ -318,7 +456,7 @@
         title: "Lalkara",
         artist: "Diljit Dosanjh",
         src: "songs/Lalkara.mp3",
-        cover: "lalkara.jpg"
+        cover: "mp_avatar/lalkara.jpg"
     },
     {
         title: "Tu Jaane Na",
