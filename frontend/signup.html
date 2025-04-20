@@ -51,19 +51,21 @@
     <!-- Signup Form -->
     <div class="container-box position-relative">
       <h1>MUSIC Player</h1>
-      <div class="input-group">
-        <label>Username</label>
-        <input type="text" placeholder="Username" />
-      </div>
-      <div class="input-group">
-        <label>Email</label>
-        <input type="email" placeholder="example@gmail.com" />
-      </div>
-      <div class="input-group">
-        <label>Password</label>
-        <input type="password" placeholder="Password" />
-      </div>
-      <button class="login-button">Sign Up</button>
+      <form id="signupForm">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="Username" required />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="example@gmail.com" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Password" required />
+        </div>
+        <button class="login-button" type="submit">Sign Up</button>
+      </form>
       <div class="footer-text">
         <p>Already a user? <a href="login.html">Login</a></p>
       </div>
@@ -83,5 +85,28 @@
 
     <!-- Bootstrap JS (for navbar collapse) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Signup Form Backend Integration -->
+    <script>
+      document.getElementById('signupForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const username = document.getElementById('username').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const password = document.getElementById('password').value;
+
+        const response = await fetch('/api/auth/signup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ username, email, password })
+        });
+
+        const data = await response.json();
+        if (response.ok) {
+          alert('Signup successful! Please log in.');
+          window.location.href = 'login.html';
+        } else {
+          alert(data.message || 'Signup failed.');
+        }
+      });
+    </script>
   </body>
 </html>

@@ -36,18 +36,20 @@
     <!-- Login Form -->
     <div class="container">
         <h1>MUSIC Player</h1>
-        <div class="input-group">
-            <label>Username</label>
-            <input type="text" placeholder="Username">
-        </div>
-        <div class="input-group">
-            <label>Password</label>
-            <input type="password" placeholder="Password">
-        </div>
-        <div class="forgot-password">
-            <a href="#">Forgot password?</a>
-        </div>
-        <button class="login-button">Login</button>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="password" required>
+            </div>
+            <div class="forgot-password">
+                <a href="forgot-password.html">Forgot password?</a>
+            </div>
+            <button class="login-button" type="submit">Login</button>
+        </form>
         <div class="footer-text">
             <p>Don't have an account? <a href="signup.html"><u>Sign up</u></a></p>
         </div>
@@ -70,5 +72,26 @@
 
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Login Backend Integration -->
+    <script>
+      document.getElementById('loginForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('email').value.trim();
+        const password = document.getElementById('password').value;
+
+        const response = await fetch('/api/auth/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, password })
+        });
+
+        if (response.redirected) {
+          window.location.href = response.url;
+        } else {
+          const data = await response.json();
+          alert(data.message || 'Login failed.');
+        }
+      });
+    </script>
 </body>
 </html>
