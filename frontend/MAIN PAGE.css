@@ -104,6 +104,12 @@ body {
     gap: 20px;
     overflow-x: auto;
     height: 20rem;
+    flex-wrap: nowrap;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
 }
 .card {
     padding-top: 1px;
