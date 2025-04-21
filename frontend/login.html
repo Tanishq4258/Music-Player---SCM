@@ -71,27 +71,33 @@
     </footer>
 
     <!-- Bootstrap Script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Login Backend Integration -->
     <script>
-      document.getElementById('loginForm').addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const email = document.getElementById('email').value.trim();
-        const password = document.getElementById('password').value;
-
-        const response = await fetch('http://localhost:5000/api/auth/login', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email, password })
+        const form = document.querySelector('form');
+    
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+    
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+    
+            const res = await fetch('http://localhost:5000/api/auth/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ email, password })
+            });
+    
+            if (res.ok) {
+                alert('Login successful!');
+                window.location.href = 'MAIN PAGE.html'; // 👈 redirect after login
+            } else {
+                const data = await res.json();
+                alert(data.error || 'Login failed');
+            }
         });
-
-        if (response.redirected) {
-          window.location.href = response.url;
-        } else {
-          const data = await response.json();
-          alert(data.message || 'Login failed.');
-        }
-      });
     </script>
+    
 </body>
 </html>
