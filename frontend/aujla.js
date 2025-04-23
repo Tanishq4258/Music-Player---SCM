@@ -17,26 +17,26 @@ const songs = [
     {
         title: "48 Rhymes",
         artist: "Karan Aujla",
-        src: "songs/Karan Aujla/48 Rhymes.mp3",
-        cover: "songs/Karan Aujla/IMG/48 rhymes.jpg"
+        src: "songs/Trending/48-rhymes.mp3",
+        cover: "songs/Trending/img/48-rhymes.jpg"
+    },
+    {
+        title: "100 Million",
+        artist: "Karan Aujla, DIVINE",
+        src: "songs/Karan Aujla/100 Million.mp3",
+        cover: "songs/Karan Aujla/IMG/street dreams.jpg"
+    },
+    {
+        title: "Wavy",
+        artist: "Karan Aujla",
+        src: "songs/Wavy.mp3",
+        cover: "mp_avatar/wavy.jpg"
     },
     {
         title: "Top Class / Overseas",
         artist: "Karan Aujla, DIVINE",
         src: "songs/Karan Aujla/Top Class Overseas.mp3",
         cover: "songs/Karan Aujla/IMG/street dreams.jpg"
-    },
-    {
-        title: "100 Million",
-        artist: "Karan Aujla, DIVINE",
-        src: "songs/Karan Aujla/100 Million.mp3",
-        cover: "songs/Karan Aujla/IMG/100 million.jpg"
-    },
-    {
-        title: "Wavy",
-        artist: "Karan Aujla",
-        src: "songs/Karan Aujla/Wavy.mp3",
-        cover: "songs/Karan Aujla/IMG/wavy.jpg"
     },
     {
         title: "Bachke Bachke",
@@ -47,8 +47,8 @@ const songs = [
     {
         title: "YKWIM",
         artist: "Karan Aujla, KR$NA, Mehar Vaani",
-        src: "songs/Karan Aujla/YKWIM.mp3",
-        cover: "songs/Karan Aujla/IMG/ykwim.jpg"
+        src: "songs/Ykwim.mp3",
+        cover: "mp_avatar/ykwim.jpg"
     },
 // other songs
     {
