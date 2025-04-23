@@ -33,7 +33,7 @@ body {
     color: #1DB954;
 }
 .sidebar .logo {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 .sidebar .create-playlist {
@@ -275,6 +275,16 @@ body {
     backdrop-filter: blur(8px);
     border: 1px solid rgba(255,255,255,0.05);
 }
+.sidebar .create-playlist {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-height: 450px; /* YEH NAYA ADD KARO */
+    overflow-y: auto;   /* YEH NAYA ADD KARO */
+}
+
+
 .sidebar .create-playlist button, .auth-buttons button {
     /* background: linear-gradient(90deg, #1DB954 0%, #1ed760 100%); */
     color: #fff;
@@ -284,4 +294,22 @@ body {
 .sidebar .create-playlist button:hover, .auth-buttons button:hover {
     transform: scale(1.05);
     /* box-shadow: 0 4px 16px #1DB95488; */
+}
+
+.sidebar .create-playlist::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar .create-playlist::-webkit-scrollbar-track {
+    background: #181818;
+    border-radius: 10px;
+}
+
+.sidebar .create-playlist::-webkit-scrollbar-thumb {
+    background: #1DB954;
+    border-radius: 10px;
+}
+
+.sidebar .create-playlist::-webkit-scrollbar-thumb:hover {
+    background: #1ed760;
 }
