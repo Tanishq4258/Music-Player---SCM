@@ -23,11 +23,6 @@ Whether you're relaxing, working, or just vibing, this music player will be your
 🛠️ Tech Stack Used:
 Frontend: HTML, CSS, JavaScript
 
-(Optional: Agar React, Tailwind, ya kuch aur use hua ho to woh bhi likh sakte hain)
-
-📸 Screenshots (Optional Section)
-(Yahan 1-2 screenshots daal sakte ho Music Player ke UI ke, taaki README aur professional lage.)
-
 📢 Future Scope (Optional Section)
 Adding playlists
 
