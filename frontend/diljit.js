@@ -59,8 +59,65 @@ const audio = document.getElementById('audio');
         artist: "Diljit Dosanjh",
         src: "songs/Diljit Dosanjh/5 Taara.mp3",
         cover: "songs/Diljit Dosanjh/IMG/5 taara.jpg"
-    },    
-   {
+    },  
+    // Dil-jit Hits
+    {
+        title: "Water",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Water.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/ghost.jpg"
+    },
+    {
+        title: "Kinni Kinni",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Kinni Kinni.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/ghost.jpg"
+    },
+    {
+        title: "Lemonade",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Lemonade.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/ghost.jpg"
+    },
+    {
+        title: "Naina",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Naina.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/naina.jpg"
+    },
+    {
+        title: "Hass Hass",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Hass Hass.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/hass hass.jpg"
+    },
+    {
+        title: "Lambadgini",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Lambadgini.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/lambadgini.jpg"
+    },
+    {
+        title: "Love Ya",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Love Ya.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/love ya.jpg"
+    },
+    {
+        title: "Raat Di Gedi",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Raat Di Gedi.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/raat di gedi.jpg"
+    },
+    //other songs      
+   
+    {
+        title: "Tu Juliat Jatt Di",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Tu Juliat Jatt Di.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/tu juliat jatt di.jpg"
+    },
+     {
         title: "Knife Brows",
         artist: "Dhanda Nyoliwala",
         src: "songs/Knife Brows.mp3",
