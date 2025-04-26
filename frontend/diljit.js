@@ -12,6 +12,54 @@ const audio = document.getElementById('audio');
    const songCoverElem = document.getElementById('song-cover');
    const searchInput = document.getElementById('search-input');
    const songs = [
+    {
+        title: "Tension",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Tension.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/advisory.jpg"
+    },
+    {
+        title: "GOAT",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/GOAT.mp3",
+        cover: "mp_avatar/born to shine.jpg"
+    },
+    {
+        title: "Lalkara",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Lalkara.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/ghostjpg"
+    },
+    {
+        title: "High End",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/High End.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/confidential.jpg"
+    },
+    {
+        title: "Born to Shine",
+        artist: "Diljit Dosanjh",
+        src: "songs/Born to Shine.mp3",
+        cover: "mp_avatar/born to shine.jpg"
+    },
+    {
+        title: "Case",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Case.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/ghost.jpg"
+    },
+    {
+        title: "Panga",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Panga.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/panga.jpg"
+    },
+    {
+        title: "5 Taara",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/5 Taara.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/5 taara.jpg"
+    },    
    {
         title: "Knife Brows",
         artist: "Dhanda Nyoliwala",
@@ -48,6 +96,78 @@ const audio = document.getElementById('audio');
         src: "songs/Born To Shine.mp3",
         cover: "mp_avatar/born to shine.jpg"
     },
+    {
+        title: "Hot Shit",
+        artist: "Arjan Dhillon",
+        src: "songs/Hot Shit.mp3",
+        cover: "mp_avatar/hot shit.jpg"
+    },
+    {
+        title: "Millionaire",
+        artist: "Yo Yo Honey Singh",
+        src: "songs/Millionaire.mp3",
+        cover: "mp_avatar/millionaire.jpg"
+    },
+    {
+        title: "We Rollin",
+        artist: "Shubh",
+        src: "songs/We Rollin.mp3",
+        cover: "mp_avatar/werollin.jpg"
+    },
+    {
+        title: "Asi Gabru Punjabi",
+        artist: "Amrinder Gill",
+        src: "songs/Asi Gabru Punjabi.mp3",
+        cover: "mp_avatar/asi gabru punjabi.jpg"
+    },
+    {
+        title: "Lalkara",
+        artist: "Diljit Dosanjh",
+        src: "songs/Lalkara.mp3",
+        cover: "mp_avatar/lalkara.jpg"
+    },
+    {
+        title: "Knife Brows",
+        artist: "Dhanda Nyoliwala",
+        src: "songs/Knife Brows.mp3",
+        cover: "mp_avatar/Knife Brows.jpg"
+    },
+   {
+        title: "C.R.E.A.M POSSE",
+        artist: "Bagghe-e SMG, Farmaan SMG, BIG KAY SMG",
+        src: "songs/C.R.E.A.M Posse.mp3", 
+        cover: "mp_avatar/C.R.E.A.M Posse.jpg"
+    },
+    {
+        title: "Never Ever",
+        artist: "Arjan Dhillon",
+        src: "songs/Never Ever.mp3", 
+        cover: "mp_avatar/Patandar.jpg"
+    },
+    {
+        title: "Nature",
+        artist: "Kabira, Nj Nindaniya",
+        src: "songs/Nature.mp3",
+        cover: "mp_avatar/nature.jpg"
+    },  
+    {
+        title: "Brown Munde",
+        artist: "AP Dhillon",
+        src: "songs/brown munde.mp3",
+        cover: "mp_avatar/brown munde.jpg"
+    },
+    {
+        title: "Born To Shine",
+        artist: "Diljit Dosanjh",
+        src: "songs/Born To Shine.mp3",
+        cover: "mp_avatar/born to shine.jpg"
+    },
+    {
+        title: "Trucker",
+        artist: "Arjan Dhillon",
+        src: "songs/Trucker.mp3",
+        cover: "mp_avatar/trucker.jpg"
+    },  
     {
         title: "Hot Shit",
         artist: "Arjan Dhillon",
@@ -242,7 +362,6 @@ const audio = document.getElementById('audio');
         src: "songs/Old Money - AP Dhillon.mp3", 
         cover: "mp_avatar/old money.jpeg"
     }
-    
     
     
 ];
