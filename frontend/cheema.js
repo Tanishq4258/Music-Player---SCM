@@ -105,10 +105,28 @@ const audio = document.getElementById('audio');
         cover: "songs/Honey Singh/IMG/chaska.jpg"
     },
     {
+        title: "Trucker",
+        artist: "Arjan Dhillon",
+        src: "songs/Trucker.mp3",
+        cover: "mp_avatar/trucker.jpg"
+    },
+    {
         title: "Aapki Ankhon Me Kuchh",
         artist: "Kishore Kumar",
         src: "songs/Old is Gold/Aap Ki Ankhon Mein Kuch.mp3",
         cover: "songs/Old is Gold/IMG/aap ki aankhon main kuchh.jpg"
+    },
+    {
+        title: "Wavy",
+        artist: "Karan Aujla",
+        src: "songs/Wavy.mp3",
+        cover: "mp_avatar/wavy.jpg"
+    },
+    {
+        title: "Indeed",
+        artist: "Cheema Y",
+        src: "songs/Cheema Y/Indeed.mp3",
+        cover: "songs/Cheema Y/IMG/dripster.jpg"
     },
     {
         title: "Chala Jata Hoon",

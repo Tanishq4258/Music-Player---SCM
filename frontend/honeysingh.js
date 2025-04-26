@@ -11,8 +11,7 @@ const audio = document.getElementById('audio');
    const songArtistElem = document.getElementById('song-artist');
    const songCoverElem = document.getElementById('song-cover');
    const searchInput = document.getElementById('search-input');
-//    const dropdown = document.getElementById('dropdown');
-//    const dropdownList = document.getElementById('dropdown-list');
+
 
    const songs = [
    {
