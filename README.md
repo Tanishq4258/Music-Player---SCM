@@ -47,9 +47,11 @@ Enjoy a visually immersive experience with album art 🖼️ displayed while mus
 
 Frontend: HTML, CSS, JavaScript
 
-**📢 Future Scope (Optional Section)**
+**📢 Future Scope **
 
 Adding playlists
 Volume control slider
 Dark and light mode
 Backend integration for cloud playlists
+Free video streaming alongside audio
+
