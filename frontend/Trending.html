@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   Music App
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="Trending.css">
+
+ </head>
+ <body>
+  <div class="sidebar">
+   <div class="logo">
+    <i class="fas fa-home">
+    </i>
+    Home
+   </div>
+   <a href="MAIN PAGE.html">
+    <i class="fas fa-compass">
+    </i>
+    explore
+   </a>
+   <a href="Trending.html">
+    <i class="fas fa-clock">
+    </i>
+    Trending
+   </a>
+   <div class="create-playlist">
+    <p>
+     Open Playlist
+    </p>
+    <a class="playlist_num" href="Kishore Kumar Spcl.html" style="text-decoration: none;">
+        <button>
+            Kishore Kumar Special
+        </button>
+    </a>
+    <a class="playlist_num" href="Honey Singh.html" style="text-decoration: none;">
+        <button>
+            Yo Yo Honey Singh Old Hits
+        </button>
+    </a>
+    <a class="playlist_num" href="cheemay.html" style="text-decoration: none;">
+      <button>Cheema Y Hits</button>
+    </a>
+    <a class="playlist_num" href="aujla.html" style="text-decoration: none;">
+      <button>
+          Karan Aujla Latest Hits
+      </button>
+  </a>
+    <a class="playlist_num" href="Love Hits.html" style="text-decoration: none;">
+        <button>
+            Love Hits
+        </button>
+    </a>
+   </div>
+  </div>
+  <div class="main-content">
+    <div class="auth-buttons">
+     <!-- <a class="login" href="login.html" style="text-decoration: none;">
+         <button>
+             Login
+         </button>
+     </a>
+     <a class="signup" href="signup.html" style="text-decoration: none;">
+         <button>
+             signup
+         </button>
+     </a> -->
+    </div>
+   <!-- <div class="search-bar">
+    <i class="fas fa-search">
+    </i>
+    <input placeholder="What would you like to hear..." type="text"/>
+   </div> -->
+   <div class="search-bar">
+
+    <i class="fas fa-search"></i>
+
+    <input id="search-input" placeholder="What would you like to hear..." type="text"/>
+
+</div>
+
+<div id="dropdown" class="dropdown" style="display: none;">
+
+    <ul id="dropdown-list" class="dropdown-list"></ul>
+
+</div>
+   <div class="section-title">
+    Trending
+   </div>
+   <div class="card-container">
+        <!-- C.R.E.A.M Posse -->
+<div class="card" data-song-title="C.R.E.A.M Posse" data-song-artist="Bagghe-e SMG, Farmaan SMG, BIG KAY SMG" data-song-src="songs/C.R.E.A.M Posse.mp3" data-song-cover="songs/Trending/img/cream-posse.jpg">
+    <img alt="C.R.E.A.M Posse album cover" height="100" src="mp_avatar/C.R.E.A.M Posse.jpg" width="100"/>
+    <p>
+      C.R.E.A.M Posse
+    </p>
+    <p>
+      SMG
+    </p>
+  </div>
+  
+  <!-- 48 Rhymes -->
+  <div class="card" data-song-title="48 Rhymes" data-song-artist="Karan Aujla" data-song-src="songs/Trending/48-rhymes.mp3" data-song-cover="songs/Trending/img/48-rhymes.jpg">
+    <img alt="48 Rhymes album cover" height="100" src="songs/Trending/img/48-rhymes.jpg" width="100"/>
+    <p>
+      48 Rhymes
+    </p>
+    <p>
+      Karan Aujla
+    </p>
+  </div>
+  
+  <!-- Scheme -->
+  <div class="card" data-song-title="Scheme" data-song-artist="Arjan Dhillon" data-song-src="songs/Trending/scheme.mp3" data-song-cover="songs/Trending/img/scheme.jpg">
+    <img alt="Scheme album cover" height="100" src="songs/Trending/img/revolution.jpg" width="100"/>
+    <p>
+      Scheme
+    </p>
+    <p>
+      Arjan Dhillon
+    </p>
+  </div>
+  
+  <!-- Police -->
+  <div class="card" data-song-title="Police" data-song-artist="Cheema Y" data-song-src="songs/Trending/police.mp3" data-song-cover="songs/Trending/img/police.jpg">
+    <img alt="Police album cover" height="100" src="songs/Trending/img/young goat.jpg" width="100"/>
+    <p>
+      Police
+    </p>
+    <p>
+      Cheema Y
+    </p>
+  </div>
+  
+  <!-- Aura -->
+  <div class="card" data-song-title="Aura" data-song-artist="Shubh" data-song-src="songs/Trending/aura.mp3" data-song-cover="songs/Trending/img/aura.jpg">
+    <img alt="Aura album cover" height="100" src="songs/Trending/img/sicario.jpg" width="100"/>
+    <p>
+      Aura
+    </p>
+    <p>
+      Shubh
+    </p>
+  </div>
+  
+  <!-- Gears -->
+  <div class="card" data-song-title="Gears" data-song-artist="Arjan Dhillon" data-song-src="songs/Trending/gears.mp3" data-song-cover="songs/Trending/img/gears.jpg">
+    <img alt="Gears album cover" height="100" src="songs/Trending/img/revolution.jpg" width="100"/>
+    <p>
+      Gears
+    </p>
+    <p>
+      Arjan Dhillon
+    </p>
+  </div>
+  
+  <!-- Accounts -->
+  <div class="card" data-song-title="Accounts" data-song-artist="Nijjar, Yo Yo Honey Singh" data-song-src="songs/Trending/accounts.mp3" data-song-cover="songs/Trending/img/accounts.jpg">
+    <img alt="Accounts album cover" height="100" src="songs/Trending/img/nijjar.jpg" width="100"/>
+    <p>
+      Accounts
+    </p>
+    <p>
+      Nijjar, Yo Yo Honey Singh
+    </p>
+  </div>
+  
+   </div>
+  </div>
+  
+</div>
+<div class="main-content">
+   
+   <!-- <div class="search-bar">
+    <i class="fas fa-search">
+    </i>
+    <input placeholder="What would you like to hear..." type="text"/>
+   </div> -->
+   
+
+<div id="dropdown" class="dropdown" style="display: none;">
+
+    <ul id="dropdown-list" class="dropdown-list"></ul>
+
+</div>
+   <div class="card-container">
+    <!-- DONALI -->
+<div class="card" data-song-title="DONALI" data-song-artist="Harkirat, Starboy X" data-song-src="songs/Trending/donali.mp3" data-song-cover="donali.jpg">
+    <img alt="DONALI album cover" height="100" src="mp_avatar/donali.webp" width="100"/>
+    <p>
+      DONALI
+    </p>
+    <p>
+      Harkirat, Starboy X
+    </p>
+  </div>
+  <!-- Superstar -->
+  <div class="card" data-song-title="Superstar" data-song-artist="JASKARAN, Rita Kim" data-song-src="songs/Trending/superstar.mp3" data-song-cover="superstar.jpg">
+    <img alt="Superstar album cover" height="100" src="mp_avatar/superstar.jpg" width="100"/>
+    <p>
+      Superstar
+    </p>
+    <p>
+      JASKARAN, Rita Kim
+    </p>
+  </div>
+    <div class="card" data-song-title="Born to Shine" data-song-artist="Diljit Dosanjh" data-song-src="songs/Born To Shine.mp3" data-song-cover="born to shine.jpg">
+     <img alt="Born to Shine album cover" height="100" src="mp_avatar/born to shine.jpg" width="100"/>
+      <p>
+         Born to Shine
+      </p>
+      <p>
+         Diljit Dosanjh
+      </p>
+    </div>
+    <div class="card" data-song-title="Be Mine" data-song-artist="Shubh" data-song-src="songs/Trending/Be Mine.mp3" data-song-cover="songs/Trending/img/Be-Mine.jpg">
+     <img alt="Be Mine album cover" height="100" src="songs/Trending/img/Be-Mine.jpg" width="100"/>
+     <p>
+      Be Mine
+     </p>
+     <p>
+      Kishore Kumar
+     </p>
+    </div>
+    <div class="card" data-song-title="315" data-song-artist="AP Dhillon" data-song-src="songs/Trending/315.mp3" data-song-cover="songs/Trending/img/315.jpg">
+     <img alt="315 album cover" height="100" src="songs/Trending/img/315.jpg" width="100"/>
+     <p>
+      315
+     </p>
+     <p>
+      AP Dhillon
+     </p>
+    </div>
+    <!-- <div class="card" data-song-title="Pind De Gede" data-song-artist="AP Dhillon" data-song-src="songs/Trending/Pind De Gerhe.mp3" data-song-cover="songs/Trending/img/Pind de gede.jpg">
+        <img alt="Pind De Gede album cover" height="100" src="songs/Trending/img/Pind de gede.jpg" width="100"/>
+        <p>
+         Pind De Gede
+        </p>
+        <p>
+         Rupinder Handa
+        </p>
+       </div>
+    <div class="card" data-song-title="Noormahal" data-song-artist="Channi Naten" data-song-src="songs/Trending/Noormahal.mp3" data-song-cover="songs/Trending/img/noormahal.webp">
+     <img alt="Noormahal album cover" height="100" src="songs/Trending/img/noormahal.webp" width="100"/>
+     <p>
+        Noormahal
+     </p>
+     <p>
+      Channi Naten
+     </p>
+    </div> -->
+    <div class="card" data-song-title="Kaleshi Chori" data-song-artist="DG IMMORTALS, Raga" data-song-src="songs/Trending/KALESHI CHORI.mp3" data-song-cover="songs/Trending/img/kaleshi chori.jpg">
+     <img alt="Kaleshi Chori album cover" height="100" src="songs/Trending/img/kaleshi chori.jpg" width="100"/>
+     <p>
+      Kaleshi Chori
+     </p>
+     <p>
+      DG IMMORTALS, Raga
+     </p>
+    </div>
+    <div class="card" data-song-title="Jaadugar" data-song-artist="Paradox" data-song-src="songs/Trending/Jaadugar.mp3" data-song-cover="songs/Trending/img/jaadugar.jpg">
+     <img alt="Jaadugar album cover" height="100" src="songs/Trending/img/jaadugar.jpg" width="100"/>
+     <p>
+      Jaadugar
+     </p>
+     <p>
+      Paradox
+     </p>
+    </div>
+   </div>
+  </div>
+  
+</div>
+
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="player">
+   <div class="song-info">
+    <img alt="song album cover" height="50" id="song-cover" src="" width="50"/>
+    <div>
+     <p id="song-title">
+      song name
+     </p>
+     <p id="song-artist">
+      Artist
+     </p>
+    </div>
+   </div>
+   <div class="controls">
+    <i class="fas fa-random" id="shuffle">
+    </i>
+    <i class="fas fa-step-backward" id="prev">
+    </i>
+    <i class="fas fa-play-circle" id="play-pause">
+    </i>
+    <i class="fas fa-step-forward" id="next">
+    </i>
+    <i class="fas fa-redo" id="repeat">
+    </i>
+   </div>
+   <div class="progress">
+    <span id="current-time">
+     00:00
+    </span>
+    <input id="progress-bar" max="100" min="0" type="range" value="0"/>
+    <span id="duration">
+     3:33
+    </span>
+   </div>
+   <div class="volume">
+    <i class="fas fa-volume-up">
+    </i>
+    <input id="volume-bar" max="100" min="0" type="range" value="50"/>
+   </div>
+  </div>
+  <audio id="audio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+  </audio>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"> </script>
+    <script src="trending.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+    
+ </body>
+</html>
