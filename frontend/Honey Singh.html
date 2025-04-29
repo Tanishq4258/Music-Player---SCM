@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   Music App
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="honeysingh.css">
+
+ </head>
+ <body>
+  <div class="sidebar">
+   <div class="logo">
+    <i class="fas fa-home">
+    </i>
+    Home
+   </div>
+   <a href="MAIN PAGE.html">
+    <i class="fas fa-compass">
+    </i>
+    explore
+   </a>
+   <a href="Trending.html">
+    <i class="fas fa-clock">
+    </i>
+    Trending
+   </a>
+   <div class="create-playlist">
+    <p>
+     Open Playlist
+    </p>
+    <a class="playlist_num" href="Kishore Kumar Spcl.html" style="text-decoration: none;">
+        <button>
+            Kishore Kumar Special
+        </button>
+    </a>
+    <a class="playlist_num" href="cheemay.html" style="text-decoration: none;">
+        <button>Cheema Y Hits</button>
+      </a>
+      <a class="playlist_num" href="aujla.html" style="text-decoration: none;">
+        <button>
+            Karan Aujla Latest Hits
+        </button>
+    </a>
+    <a class="playlist_num" href="Love Hits.html" style="text-decoration: none;">
+        <button>
+            Love Hits
+        </button>
+    </a>
+   </div>
+  </div>
+  <div class="main-content">
+    <div class="auth-buttons">
+     <!-- <a class="login" href="login.html" style="text-decoration: none;">
+         <button>
+             Login
+         </button>
+     </a>
+     <a class="signup" href="signup.html" style="text-decoration: none;">
+         <button>
+             signup
+         </button>
+     </a> -->
+    </div>
+   <!-- <div class="search-bar">
+    <i class="fas fa-search">
+    </i>
+    <input placeholder="What would you like to hear..." type="text"/>
+   </div> -->
+   <div class="search-bar">
+
+    <i class="fas fa-search"></i>
+
+    <input id="search-input" placeholder="What would you like to hear..." type="text"/>
+
+</div>
+
+<div id="dropdown" class="dropdown" style="display: none;">
+
+    <ul id="dropdown-list" class="dropdown-list"></ul>
+
+</div>
+   <div class="section-title">
+    Yo Yo Honey Singh Old Hits
+   </div>
+   <div class="card-container">
+    <div class="card" data-song-title="Dope Shope" data-song-artist="Yo Yo Honey Singh" data-song-src="songs/Honey Singh/Dope Shope International Villager 320 Kbps.mp3" data-song-cover="songs/Honey Singh/IMG/dope shope, brown munde.jpg">
+     <img alt ="Dope Shope album cover" height="100" src="songs/Honey Singh/IMG/dope shope, brown munde.jpg" width="100" />
+     <p>
+      Dope Shope
+     </p>
+     <p>
+       Yo Yo Honey Singh
+     </p>
+    </div>
+    <div class="card" data-song-title="Chaska" data-song-artist="Yo Yo Honey Singh" data-song-src="songs/Honey Singh/Chaska.mp3" data-song-cover="songs/Honey Singh/IMG/chaska.jpg">
+     <img alt="Chaska album cover" height="100" src="songs/Honey Singh/IMG/chaska.jpg" width="100"/>
+     <p>
+      Chaska
+     </p>
+     <p>
+        Yo Yo Honey Singh
+     </p>
+    </div>
+    <div class="card" data-song-title="Chaska" data-song-artist="Blue Eyes" data-song-src="songs/Honey Singh/Blue Eyes Yo Yo Honey Singh 320 Kbps.mp3" data-song-cover="songs/Honey Singh/IMG/blue eyes.jpg">
+     <img alt="Blue Eyes album cover" height="100" src="songs/Honey Singh/IMG/blue eyes.jpg" width="100"/>
+     <p>
+      Blue Eyes
+     </p>
+     <p>
+        Yo Yo Honey Singh
+     </p>
+    </div>
+    <div class="card" data-song-title="Love Dose" data-song-artist="Yo Yo Honey Singh" data-song-src="songs/Honey Singh/Love Dose - Desi Kalakaar 320 Kbps.mp3" data-song-cover="songs/Honey Singh/IMG/love dose.jpg">
+     <img alt="Love Dose album cover" height="100" src="songs/Honey Singh/IMG/love dose.jpg" width="100"/>
+     <p>
+      Love Dose
+     </p>
+     <p>
+      Yo Yo Honey Singh
+     </p>
+    </div>
+    <div class="card" data-song-title="Brown Rang" data-song-artist="Yo Yo Honey Singh" data-song-src="songs/Honey Singh/Brown Rang International Villager 320 Kbps.mp3" data-song-cover="songs/Honey Singh/IMG/dope shope, brown munde.jpg">
+     <img alt="Brown Rang album cover" height="100" src="songs/Honey Singh/IMG/dope shope, brown munde.jpg" width="100"/>
+     <p>
+      Brown Rang
+     </p>
+     <p>
+        Yo Yo Honey Singh
+     </p>
+    </div>
+    <div class="card" data-song-title="This Party's Gettin Hot" data-song-artist="Yo Yo Honey Singh" data-song-src="songs/Honey Singh/This Party Getting Hot.mp3" data-song-cover="songs/Honey Singh/IMG/this partys getting hot.jpg">
+     <img alt="This Party's Gettin Hot album cover" height="100" src="songs/Honey Singh/IMG/this partys getting hot.jpg" width="100"/>
+     <p>
+      This Party's Gettin Hot
+     </p>
+     <p>
+        Yo Yo Honey Singh
+     </p>
+    </div>
+   </div>
+   
+
+  
+</div>
+
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="player">
+   <div class="song-info">
+    <img alt="Jo Tum Mere Ho album cover" height="50" id="song-cover" src="Jo tum mere ho.png" width="50"/>
+    <div>
+     <p id="song-title">
+      Jo Tum Mere ho
+     </p>
+     <p id="song-artist">
+      Anuv Jain
+     </p>
+    </div>
+   </div>
+   <div class="controls">
+    <i class="fas fa-random" id="shuffle">
+    </i>
+    <i class="fas fa-step-backward" id="prev">
+    </i>
+    <i class="fas fa-play-circle" id="play-pause">
+    </i>
+    <i class="fas fa-step-forward" id="next">
+    </i>
+    <i class="fas fa-redo" id="repeat">
+    </i>
+   </div>
+   <div class="progress">
+    <span id="current-time">
+     00:00
+    </span>
+    <input id="progress-bar" max="100" min="0" type="range" value="0"/>
+    <span id="duration">
+     3:33
+    </span>
+   </div>
+   <div class="volume">
+    <i class="fas fa-volume-up">
+    </i>
+    <input id="volume-bar" max="100" min="0" type="range" value="50"/>
+   </div>
+  </div>
+  <audio id="audio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+  </audio>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="honeysingh.js"></script>
+    
+ </body>
+</html>
