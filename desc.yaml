@@ -1,0 +1,38 @@
+app:
+  name: "MyMusicPlayer"
+  version: "1.0.0"
+  developer: "Kartikya Sokhal"
+  theme: 
+    mode: "dark"  # options: dark, light
+    primary_color: "#1DB954"
+
+audio:
+  default_volume: 75  # 0 to 100
+  supported_formats:
+    - mp3
+    - wav
+    - flac
+    - aac
+
+playlist:
+  default:
+    - title: "Tum Hi Ho"
+      artist: "Arijit Singh"
+      duration: "4:22"
+      file_path: "music/tum_hi_ho.mp3"
+    - title: "Kesariya"
+      artist: "Arijit Singh"
+      duration: "3:50"
+      file_path: "music/kesariya.mp3"
+
+user_preferences:
+  autoplay: true
+  loop: "playlist"  # options: off, one, playlist
+  shuffle: false
+
+shortcuts:
+  play_pause: "space"
+  next: "ctrl+right"
+  previous: "ctrl+left"
+  volume_up: "ctrl+up"
+  volume_down: "ctrl+down"
