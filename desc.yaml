@@ -30,9 +30,3 @@ user_preferences:
   loop: "playlist"  # options: off, one, playlist
   shuffle: false
 
-shortcuts:
-  play_pause: "space"
-  next: "ctrl+right"
-  previous: "ctrl+left"
-  volume_up: "ctrl+up"
-  volume_down: "ctrl+down"
