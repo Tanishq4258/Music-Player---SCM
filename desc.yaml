@@ -3,11 +3,11 @@ app:
   version: "1.0.0"
   developer: "Kartikya Sokhal"
   theme: 
-    mode: "dark"  # options: dark, light
+    mode: "dark"  
     primary_color: "#1DB954"
 
 audio:
-  default_volume: 75  # 0 to 100
+  default_volume: 75 
   supported_formats:
     - mp3
     - wav
@@ -27,6 +27,5 @@ playlist:
 
 user_preferences:
   autoplay: true
-  loop: "playlist"  # options: off, one, playlist
+  loop: "playlist"  
   shuffle: false
-
