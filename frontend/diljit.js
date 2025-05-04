@@ -28,7 +28,7 @@ const audio = document.getElementById('audio');
         title: "Lalkara",
         artist: "Diljit Dosanjh",
         src: "songs/Diljit Dosanjh/Lalkara.mp3",
-        cover: "songs/Diljit Dosanjh/IMG/ghostjpg"
+        cover: "songs/Diljit Dosanjh/IMG/ghost.jpg"
     },
     {
         title: "High End",

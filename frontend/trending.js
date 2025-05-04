@@ -106,10 +106,10 @@ const audio = document.getElementById('audio');
         cover: "songs/Trending/img/kaleshi chori.jpg"
     },
     {
-        title: "Jaadugar",
-        artist: "Paradox",
-        src: "songs/Trending/Jaadugar.mp3",
-        cover: "songs/Trending/img/jaadugar.jpg"
+        title: "Tension",
+        artist: "Diljit Dosanjh",
+        src: "songs/Diljit Dosanjh/Tension.mp3",
+        cover: "songs/Diljit Dosanjh/IMG/advisory.jpg"
     },
     
     {
