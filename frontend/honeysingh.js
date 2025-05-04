@@ -69,6 +69,19 @@ const audio = document.getElementById('audio');
         cover: "werollin.jpg"
     },
     {
+        title: "Police",
+        artist: "Cheema Y",
+        src: "songs/Cheema Y/Police.mp3",
+        cover: "songs/Cheema Y/IMG/young goat.jpg"
+    },
+    {
+        title: "Not Sure",
+        artist: "Cheema Y",
+        src: "songs/Cheema Y/Not Sure.mp3",
+        cover: "songs/Cheema Y/IMG/not sure.jpg"
+    },
+    
+    {
         title: "Asi Gabru Punjabi",
         artist: "Amrinder Gill",
         src: "songs/Asi Gabru Punjabi.mp3",
@@ -85,6 +98,12 @@ const audio = document.getElementById('audio');
         artist: "Karan Aujla",
         src: "songs/Ykwim.mp3",
         cover: "Ykwim.jpg"
+    },
+    {
+    title: "Blue Mountain",
+    artist: "Cheema Y",
+    src: "songs/Cheema Y/Blue Mountain.mp3",
+    cover: "songs/Cheema Y/IMG/anyway.jpg"
     },
     {
         title: "Aapki Ankhon Me Kuchh",
@@ -116,6 +135,17 @@ const audio = document.getElementById('audio');
         src: "songs/Love Hits/Aankhon Mein Doob Jaane Ko.mp3",
         cover: "songs/Love Hits/IMG/aankhon mai doob jane ko.jpg"
     },
+    { title: "Snake",
+        artist: "Cheema Y",
+        src: "songs/Cheema Y/Snake.mp3",
+        cover: "songs/Cheema Y/IMG/snake.jpg"
+    },
+    {
+        title: "Trump",
+        artist: "Cheema Y",
+        src: "songs/Cheema Y/Trump.mp3",
+        cover: "songs/Cheema Y/IMG/trump.jpg"
+    },
     {
         title: "Main Rang Sharbaton Ka",
         artist: "Atif Aslam",
@@ -146,7 +176,25 @@ const audio = document.getElementById('audio');
         src: "songs/Love Hits/Tum Mile Tum Mile.mp3",
         cover: "songs/Love Hits/IMG/tum mile.jpg"
 
-    }
+    },
+    {
+        title: "Wealth",
+        artist: "Cheema Y",
+        src: "songs/Cheema Y/Wealth.mp3",
+        cover: "songs/Cheema Y/IMG/dripster.jpg"
+    },
+    {
+        title: "Young GOAT",
+        artist: "Cheema Y",
+        src: "songs/Cheema Y/Young GOAT.mp3",
+        cover: "songs/Cheema Y/IMG/young goat.jpg"
+    },
+    {
+        title: "Mascara",
+        artist: "Cheema Y",
+        src: "songs/Cheema Y/Mascara.mp3",
+        cover: "songs/Cheema Y/IMG/cloud 9.jpg"
+    },
     
     
 ];

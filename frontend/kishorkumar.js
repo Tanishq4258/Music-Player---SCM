@@ -46,11 +46,18 @@ const audio = document.getElementById('audio');
 
     },
     {
+        title: "Ye Shaam Mastani",
+        artist: "Kishore Kumar",
+        src: "songs/Old is Gold/Yeh Sham Mastani And Dialogue.mp3",
+        cover: "songs/Old is Gold/IMG/yeh shaam mastani.webp"
+    },
+    {
         title: "Aankhon Mai Doob Jaane Ko",
         artist: "The 9Teen",
         src: "songs/Love Hits/Aankhon Mein Doob Jaane Ko.mp3",
         cover: "songs/Love Hits/IMG/aankhon mai doob jane ko.jpg"
     },
+    
     {
         title: "Main Rang Sharbaton Ka",
         artist: "Atif Aslam",
