@@ -1,7 +1,7 @@
 app:
   name: "MyMusicPlayer"
   version: "1.0.0"
-  developer: "Kartikya Sokhal"
+  developer: "Tanishq Chhabra"
   theme: 
     mode: "dark"  
     primary_color: "#1DB954"
@@ -16,16 +16,17 @@ audio:
 
 playlist:
   default:
-    - title: "Tum Hi Ho"
-      artist: "Arijit Singh"
-      duration: "4:22"
-      file_path: "music/tum_hi_ho.mp3"
-    - title: "Kesariya"
-      artist: "Arijit Singh"
-      duration: "3:50"
-      file_path: "music/kesariya.mp3"
+
+    - title: "Born to Shine"
+      artist: "Diljit Dosanjh"
+      duration: "3:33"
+      file_path: "songs/Diljit Dosanjh/Bass.mp3"
+    - title: "Case"
+      artist: "Diljit Dosanjh"
+      duration: "2:15"
+      file_path: "songs/Diljit Dosanjh/Panga.mp3"
 
 user_preferences:
   autoplay: true
   loop: "playlist"  
-  shuffle: false
+  shuffle: True
