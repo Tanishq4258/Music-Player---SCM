@@ -16,6 +16,7 @@ audio:
 
 playlist:
   default:
+
     - title: "Born to Shine"
       artist: "Diljit Dosanjh"
       duration: "3:33"
